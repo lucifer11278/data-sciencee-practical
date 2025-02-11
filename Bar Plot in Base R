@@ -1,0 +1,7 @@
+# Bar Plot in Base R
+# Sample data
+categories <- c("A", "B", "C", "D", "E")
+values <- c(10, 15, 7, 20, 13)
+
+# Creating a bar plot
+barplot(values, names.arg=categories, col="skyblue", main="Basic Bar Plot in Base R", xlab="Categories", ylab="Values", border="black")
