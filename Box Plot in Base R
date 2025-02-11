@@ -1,0 +1,6 @@
+# Box Plot in Base R
+# Sample data
+data <- c(12, 15, 14, 10, 18, 20, 22, 17, 25, 30)
+
+# Creating a box plot
+boxplot(data, main="Box Plot in Base R", ylab="Values", col="lightblue", border="darkblue")
