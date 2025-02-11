@@ -1,0 +1,6 @@
+# Sample data
+categories <- c("A", "B", "C", "D", "E")
+values <- c(10, 15, 7, 20, 13)
+
+# Horizontal Bar Plot
+barplot(values, names.arg=categories, col="lightgreen", horiz=TRUE, main="Horizontal Bar Plot", xlab="Values", ylab="Categories", border="black")
