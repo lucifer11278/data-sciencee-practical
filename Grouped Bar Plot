@@ -1,0 +1,10 @@
+# Grouped Bar Plot
+# Sample data
+group1 <- c(10, 15, 7, 20, 13)  # First group
+group2 <- c(12, 17, 9, 22, 16)  # Second group
+
+# Combine data into a matrix
+data_matrix <- rbind(group1, group2)
+
+# Create a grouped bar plot
+barplot(data_matrix, beside=TRUE, names.arg=categories, col=c("skyblue", "orange"), main="Grouped Bar Plot in Base R", xlab="Categories", ylab="Values", legend.text=c("Group 1", "Group 2"), args.legend=list(x="topright"))
